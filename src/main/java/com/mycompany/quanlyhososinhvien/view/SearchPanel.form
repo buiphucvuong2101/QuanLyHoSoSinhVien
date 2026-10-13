@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JButton" name="btnSua">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="S&#x1eed;a"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnXoa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="X&#xf3;a"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="pnResult" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="pnSearch" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="pnResult" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="pnSearch" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="pnResult">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="ScrollTable" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="ScrollTable" alignment="0" pref="171" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="ScrollTable">
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JScrollPane()"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tblKetQua">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <SerializedValue value="-84,-19,0,5,115,114,0,78,111,114,103,46,110,101,116,98,101,97,110,115,46,109,111,100,117,108,101,115,46,102,111,114,109,46,82,65,68,67,111,110,110,101,99,116,105,111,110,80,114,111,112,101,114,116,121,69,100,105,116,111,114,36,82,65,68,67,111,110,110,101,99,116,105,111,110,68,101,115,105,103,110,86,97,108,117,101,2,10,-70,90,-35,-97,-57,100,2,0,7,73,0,4,116,121,112,101,76,0,10,109,101,116,104,111,100,78,97,109,101,116,0,18,76,106,97,118,97,47,108,97,110,103,47,83,116,114,105,110,103,59,76,0,12,112,114,111,112,101,114,116,121,78,97,109,101,113,0,126,0,1,76,0,16,114,97,100,67,111,109,112,111,110,101,110,116,78,97,109,101,113,0,126,0,1,76,0,16,114,101,113,117,105,114,101,100,84,121,112,101,78,97,109,101,113,0,126,0,1,76,0,8,117,115,101,114,67,111,100,101,113,0,126,0,1,76,0,5,118,97,108,117,101,113,0,126,0,1,120,112,0,0,0,2,112,112,112,112,116,0,0,112"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="pnSearch">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="240" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lblLopFilter" min="-2" pref="116" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cboLopFilter" min="-2" pref="257" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="lblKeyword" min="-2" pref="116" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="txtKeyword" min="-2" pref="257" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblKhoaFilter" min="-2" pref="116" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cboKhoaFilter" min="-2" pref="257" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="btnTim" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                          <Component id="btnReset" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="224" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblKeyword" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="txtKeyword" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblKhoaFilter" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="cboKhoaFilter" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblLopFilter" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="cboLopFilter" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="btnTim" max="32767" attributes="0"/>
+                      <Component id="btnReset" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblKeyword">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="T&#x1eeb; kh&#xf3;a:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblLopFilter">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="L&#x1edb;p:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblKhoaFilter">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Khoa:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cboLopFilter">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtKeyword">
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cboKhoaFilter">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnReset">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Reset"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnTim">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="T&#xec;m"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
